@@ -1,5 +1,5 @@
-// Project Euler Problem 4
-// What is the largest palindrome made from the product of two 3-integer numbers?
+# Project Euler Problem 4
+# What is the largest palindrome made from the product of two 3-integer numbers?
 
 answer = 0
 
@@ -10,5 +10,5 @@ for i in xrange(999, 100, -1):
 			stringProduct = str(product)
 			if stringProduct == stringProduct[::-1]:
 				answer = i * j
-				
+
 print answer
