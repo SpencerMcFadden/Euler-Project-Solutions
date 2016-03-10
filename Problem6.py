@@ -11,5 +11,5 @@ for i in xrange(1, 101):
 
 squareOfSum = squareOfSum**2
 
-answer = sumOfSquare - squareOfSum
+answer = abs(sumOfSquare - squareOfSum)
 print answer
