@@ -8,3 +8,7 @@ for a in xrange(1, goal):
 		c = goal - a - b
 		if a**2 + b**2 == c**2:
 			print a * b * c
+			break
+	else:
+		continue
+	break
